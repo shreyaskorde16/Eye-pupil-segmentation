@@ -8,6 +8,6 @@ To see the results of the segmentation model you can see the .png files provided
 All result graphs are stored in Runs/train folder in this repository.
 
 
-![BoxF1_curve](https://github.com/shreyaskorde16/Eye-pupil-segmentation/assets/116307459/060dd276-f209-4f85-9b18-e43eda6442aa)
+![logo](https://github.com/shreyaskorde16/Eye-pupil-segmentation/blob/master/runs/segment/train/BoxR_curve.png?raw=true)
 
 Thank you!
