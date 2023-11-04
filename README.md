@@ -28,11 +28,22 @@ Intersection over Union (IoU approach): The IoU metric divides the total number 
 
 The IR camera photos of eye pupils taken from various angles are included in the dataset I utilized for this study. The collection consists of 15 distinct personalities' eye-pupil pictures.  
 
+<img
+  src="https://github.com/shreyaskorde16/Eye-pupil-segmentation/blob/master/input_image_data.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 100px; max-height: 50px">
 
-<img src="https://github.com/shreyaskorde16/Eye-pupil-segmentation/blob/master/input_image_data.png"  width="400" height="400" align="centre" />
+<img
+  src="https://github.com/shreyaskorde16/Eye-pupil-segmentation/blob/master/annotation_tool.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 200px">
 
-<p align="justify">
-<img src="https://github.com/shreyaskorde16/Eye-pupil-segmentation/blob/master/annotation_tool.png" width="400" height="275" align="right" /> We used the __[Computer Vision Annotation Tool](https://www.cvat.ai/)__ (CVAT) to create annotated images, which are displayed on the CVAT user console, in order to train the YOLOv8 semantic segmentation model. Computer Vision Annotation Tool (CVAT) is a free, open source, web-based image and video annotation tool which is used for labeling data for computer vision algorithms. Originally developed by Intel, CVAT is designed for use by a professional data annotation team, with a user interface optimized for computer vision annotation tasks.
+ <p align="justify"> 
+   
+  We used the __[Computer Vision Annotation Tool](https://www.cvat.ai/)__ (CVAT) to create annotated images, which are displayed on the CVAT user console, in order to train the YOLOv8 semantic segmentation model.  Computer Vision Annotation Tool (CVAT) is a free, open source, web-based image and video annotation tool which is used for labeling data for computer vision algorithms. Originally developed by Intel, CVAT is designed for use by a professional data annotation team, with a user interface optimized for computer vision annotation tasks.
+
 
 
 
