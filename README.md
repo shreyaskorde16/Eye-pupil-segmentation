@@ -6,10 +6,11 @@
 
 `masks_to_polygon.py`: Python script to convert the labels images i.e. masks to convert them into .txt format which is yolo format to train the model.
 
-`yolov8l-seg.pt`: contains all the weights of the model. To use the model we have to import this semantic segmentation model. 
+`yolov8l-seg.pt`: Contains all the weights of the model. To use the model we have to import this semantic segmentation model. 
 
-`run\segment`: folder contains all the predictions and validation results of the YOLOv8 semantic segmentation model.
+`run\segment`: Folder contains all the predictions and validation results of the YOLOv8 semantic segmentation model.
 
+`Prediction_eye_video.mp4`: The video contains the result of the semantic segmentation model i.e. Human Eye Pupil Tracking in video using the YOLOv8 Segmentation model.
 
 # **Introduction**
 <p align="justify">
@@ -61,6 +62,10 @@ The graphs below shows the validation results of the segmentation model:
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 200px">
+
+
+
+  `Video Link`: __[Click here to View the Human Eye Pupil Tracking in video ](https://youtube.com/shorts/T6K_4v6gFNE)__
 
 
 
