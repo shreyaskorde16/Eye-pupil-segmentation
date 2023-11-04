@@ -1,12 +1,12 @@
 # **Human Eye Pupil Tracking in video using YOLOv8 Segmentation model**
 ---
-`config.yaml` : Configuration file required for the YOLOv8 semantic segmentation model.
+`config.yaml`: Configuration file required for the YOLOv8 semantic segmentation model.
 
-`eye_tracking_v1.ipynb` : Contains python scripts to train and evaluate the YOLOv8semantic segmentation model.
+`eye_tracking_v2.ipynb`: Contains python scripts to train and evaluate the YOLOv8semantic segmentation model.
 
-`masks_to_polygon.py` : Python script to convert the lables images i.e. masks to convert them into .txt format which is yolo format to train the model.
+`masks_to_polygon.py`: Python script to convert the labels images i.e. masks to convert them into .txt format which is yolo format to train the model.
 
-`yolov8l-seg.pt` : contains all the weights of the model. To use the model we have to import this semantic segmentation model. 
+`yolov8l-seg.pt`: contains all the weights of the model. To use the model we have to import this semantic segmentation model. 
 
 
 # **Introduction**
@@ -39,6 +39,7 @@ The IR camera photos of eye pupils taken from various angles are included in the
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 200px">
 
-
+<p align="justify"> 
+I trained the YOLOv8 model for 100 epoches after creating training input data, and I was able to acquire an exceptional mean average precision of 0.995. The predictions image below displays the output outcomes. 
 
 
