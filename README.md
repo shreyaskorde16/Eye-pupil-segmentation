@@ -2,11 +2,13 @@
 ---
 `config.yaml`: Configuration file required for the YOLOv8 semantic segmentation model.
 
-`eye_tracking_v2.ipynb`: Contains python scripts to train and evaluate the YOLOv8semantic segmentation model.
+`eye_tracking_v2.ipynb`: Contains Python scripts to train and evaluate the YOLOv8semantic segmentation model.
 
 `masks_to_polygon.py`: Python script to convert the labels images i.e. masks to convert them into .txt format which is yolo format to train the model.
 
 `yolov8l-seg.pt`: contains all the weights of the model. To use the model we have to import this semantic segmentation model. 
+
+`run\segment`: folder contains all the predictions and validation results of the YOLOv8 semantic segmentation model.
 
 
 # **Introduction**
@@ -40,6 +42,25 @@ The IR camera photos of eye pupils taken from various angles are included in the
   style="display: inline-block; margin: 0 auto; max-width: 200px">
 
 <p align="justify"> 
-I trained the YOLOv8 model for 100 epoches after creating training input data, and I was able to acquire an exceptional mean average precision of 0.995. The predictions image below displays the output outcomes. 
+I trained the YOLOv8 model for 100 epochs after creating training input data, and I was able to acquire an exceptional mean average precision of 0.995. The predictions image below displays the output outcomes. 
+
+# **Results**
+<p align="justify"> 
+The YOLOv8 object segmentation model was trained and implemented to detect and track in real-time human eye pupil in videos having F1 score of 0.98 for 0.80 confidence.  
+  
+<img src="https://github.com/shreyaskorde16/Eye-pupil-segmentation/blob/8d2c836ba262c1161e45a55e189cf344018d822d/runs/segment/train/BoxF1_curve.png" width="500" height= "300" />
+  
+The outcomes of the model are as follows:
+
+<img src="https://github.com/shreyaskorde16/Eye-pupil-segmentation/blob/8d2c836ba262c1161e45a55e189cf344018d822d/runs/segment/train/val_batch0_pred.jpg" width="450" height= "550" />
+
+The graphs below shows the validation results of the segmentation model:
+
+<img
+  src="https://github.com/shreyaskorde16/Eye-pupil-segmentation/blob/8d2c836ba262c1161e45a55e189cf344018d822d/runs/segment/train/results.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 200px">
+
 
 
