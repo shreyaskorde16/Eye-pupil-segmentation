@@ -1,5 +1,13 @@
 # **Human Eye Pupil Tracking in video using YOLOv8 Segmentation model**
 ---
+`config.yaml` : Configuration file required for the YOLOv8 semantic segmentation model.
+
+`eye_tracking_v1.ipynb` : Contains python scripts to train and evaluate the YOLOv8semantic segmentation model.
+
+`masks_to_polygon.py` : Python script to convert the lables images i.e. masks to convert them into .txt format which is yolo format to train the model.
+
+`yolov8l-seg.pt` : contains all the weights of the model. To use the model we have to import this semantic segmentation model. 
+
 
 # **Introduction**
 <p align="justify">
