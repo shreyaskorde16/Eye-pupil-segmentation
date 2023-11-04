@@ -9,3 +9,6 @@ Only the classes in the image will allow us to construct a bounding box through 
 
 
 **Semantic segmentation** : Semantic Segmentation is the process of assigning a label to every pixel in the image. This is in stark contrast to classification, where a single label is assigned to the entire picture. Semantic segmentation treats multiple objects of the same class as a single entity.
+
+Metrics for evaluation:
+Intersection over Union (IoU approach): The IoU metric divides the total number of pixels contained in both the target and prediction masks by the number of pixels shared between them.
