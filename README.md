@@ -21,10 +21,10 @@ Intersection over Union (IoU approach): The IoU metric divides the total number 
 The IR camera photos of eye pupils taken from various angles are included in the dataset I utilized for this study. The collection consists of 15 distinct personalities' eye-pupil pictures.  
 
 
-<img src="https://github.com/shreyaskorde16/Eye-pupil-segmentation/blob/master/input_image_data.png"  width="500" height="500" align="centre" />
+<img src="https://github.com/shreyaskorde16/Eye-pupil-segmentation/blob/master/input_image_data.png"  width="400" height="400" align="centre" />
 
 
-We used the Computer Vision Annotation Tool (CVAT) to create annotated images, which are displayed on the CVAT user console, in order to train the YOLOv8 semantic segmentation model.  
+<img src="https://github.com/shreyaskorde16/Eye-pupil-segmentation/blob/master/annotation_tool.png" width="400" height="275" align="right" /> We used the __[Computer Vision Annotation Tool](https://www.cvat.ai/)__ (CVAT) to create annotated images, which are displayed on the CVAT user console, in order to train the YOLOv8 semantic segmentation model.  
 
-<img src="" width="500" height="500" align="centre" />
+
 
